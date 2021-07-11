@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0, auto;
+}
+
+html {
+  background-color: rgb(233, 250, 255);
+  color: #555;
+  font-family: "Arial", "sans-serif";
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+header {
+  background-image: linear-gradient(
+      rgba(97, 97, 97, 0.364),
+      rgba(97, 97, 97, 0.364)
+    ),
+    url(img/banner.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  object-fit: cover;
+}
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 200%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #f97f51;
+  content: "";
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+.long-copy {
+  line-height: 145%;
+  width: 80%;
+  margin-left: 10%;
+}
+.btn:link,
+.btn :visited {
+  display: inline-block;
+  padding: 10px 10px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+  transition: 1s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #f97f51;
+  border: 1px solid #f97f51;
+  color: #fff;
+  margin-right: 15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #f97f51;
+  color: #f97f51;
+}
+.btn:hover,
+.btn:active {
+  background-color: #f75b20;
+}
+.btn-full:hover,
+.btn-active {
+  background-color: rgb(255, 255, 255);
+  color: #f97f51;
+  border: #fff solid 1px;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  color: #fff;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+  position: absolute;
+  left: 300px;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding-bottom: 8px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 98%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #f97f51;
+}
+.box {
+  padding: 1%;
+}
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 110%;
+  margin-bottom: 15px;
+  width: 200%;
+}
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+.icon-big {
+  font-size: 300%;
+  display: block;
+  color: #f97f51;
+  margin-bottom: 10px;
+}
+.meals-showcase {
+  list-style: none;
+  width: 80%;
+}
+.meals-showcase li {
+  display: block;
+  float: right;
+  width: 20%;
+}
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.meal-photo img {
+  width: 100%;
+  height: 250px;
+  transform: scale(1.15);
+  transition: transform 1s, opacity 1s;
+  opacity: 0.7;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+.span-1-of-2 img {
+  width: 500px;
+  height: 500px;
+}
+/** BUTTONS */
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+.step-box :last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+.app-screen {
+  width: 40%;
+  height: 700px;
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+#row-h2 {
+  padding-top: 300px;
+}
+.works-step {
+  margin-bottom: 50px;
+}
+.works-step div {
+  color: #f97f51;
+  border: 4px solid #f97f51;
+  display: block;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  font-size: 150%;
+  float: left;
+  margin-right: 10px;
+}
+
+.btn-app img {
+  width: auto;
+  height: 60px;
+  margin-right: 10px;
+}
