@@ -28,6 +28,7 @@ header {
   background-position: center;
   width: 100%;
   object-fit: cover;
+  background-attachment: fixed;
 }
 .hero-text-box {
   position: absolute;
@@ -145,8 +146,7 @@ h2:after {
   padding: 1%;
 }
 h3 {
-  font-weight: 300;
-  text-transform: uppercase;
+  font-weight: 500;
   font-size: 110%;
   margin-bottom: 15px;
   width: 200%;
@@ -179,7 +179,7 @@ h3 {
 .meal-photo img {
   width: 100%;
   height: 250px;
-  transform: scale(1.15);
+  transform: scale(1.15s);
   transition: transform 1s, opacity 1s;
   opacity: 0.7;
 }
@@ -234,4 +234,179 @@ h3 {
   width: auto;
   height: 60px;
   margin-right: 10px;
+  border: 0px;
+}
+
+/*SECTION3
+
+*/
+.section3-img {
+  width: 90%;
+  height: 350px;
+  margin-bottom: 10%;
+  transition: transform 1s, opacity 1s;
+  opacity: 0.9;
+  transform: scale(0.9);
+  margin-left: -5%;
+}
+.section3-img:hover {
+  transform: scale(0.8);
+  opacity: 1.2;
+}
+.section3-container {
+  font-weight: 500;
+  font-size: 150%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 10%;
+}
+.city {
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+.icon-small {
+  display: inline-block;
+  font-size: 80%;
+  color: #f97f51;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #f97f51;
+  border-bottom: 1px;
+  border-bottom: 1px solid #f97f51;
+  transition: border-bottom 0.5s, color 0.5s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+.btn-app:link,
+.btn-app:visited {
+  border-bottom: 0;
+}
+/*Section4
+
+*/
+.collumn {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.section4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/be-boi-tuoi-tre-vo-thi-sau-2.jpg);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 90% 120%;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  color: #fff;
+  font-weight: 200;
+}
+blockquote {
+  text-align: left;
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 20%;
+  position: relative;
+}
+blockquote:before {
+  content: "\0022";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -40px;
+}
+.section4 {
+  margin-top: 100px;
+  height: 500px;
+  background-attachment: fixed;
+}
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+  margin-left: 20%;
+}
+cite img {
+  border-radius: 100%;
+  height: 50px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.section4 h2 {
+  padding-top: 60px;
+}
+/*
+SECTION 5
+
+*/
+.section5 {
+  padding-top: 4%;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  column-gap: 100px;
+  margin-top: 0px;
+}
+.section5-list {
+  margin-left: 100%;
+  width: 100%;
+  background-color: rgb(232, 219, 202);
+  border-radius: 50px;
+}
+.section5-text {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 150%;
+  padding-right: 10px;
+}
+.section5-list h3 {
+  color: #f75b20;
+  font-weight: 700;
+  text-align: center;
+  font-size: 120%;
+  padding-top: 50px;
+  width: 100%;
+  border-bottom: 3px solid rgb(199, 172, 172);
+  padding-bottom: 10px;
+}
+.section5-overall {
+  background-color: #d3f3eb;
+  margin-top: -30px;
+  padding-top: 50px;
+}
+.section5-text ul {
+  list-style: none;
+  padding-bottom: 14px;
+  border-bottom: 3px solid rgb(199, 172, 172);
+  padding-bottom: 10px;
+  padding-top: 19px;
+  box-shadow: 5px 5px 5px rgb(145, 143, 143);
+}
+.section5-text ul li {
+  padding-bottom: 10px;
+}
+.section5-text span {
+  font-size: 155%;
+}
+.second-text {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 3px solid rgb(199, 172, 172);
+}
+.section5-text div:last-child {
+  text-align: center;
+}
+.muangay {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.special {
+  width: 110%;
 }

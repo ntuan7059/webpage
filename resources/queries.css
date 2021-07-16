@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1200px) {
+  .row img {
+    margin-left: -10px;
+  }
+  .section5-overall {
+    padding-right: 10%;
+  }
+}
+
+/*tablet*/
+@media only screen and (max-width: 1023px) {
+  .section5-overall {
+    padding-right: 10%;
+  }
+}
+
+/*small phone*/
+@media only screen and (max-width: 767px) {
+  .section5-overall {
+    padding-right: 10%;
+  }
+}
+
+/*small phones*/
+@media only screen and (max-width: 480px) {
+  .section5-overall {
+    padding-right: 10%;
+  }
+}
